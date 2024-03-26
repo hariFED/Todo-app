@@ -1,14 +1,12 @@
 import TodoInput from "./components/input"
-import List from "./components/list"
 
 
 function App() {
 
   return (
     <>
-      <div className="h-screen font-fig">
+      <div className=" font-fig">
         <TodoInput />
-        <List />
       </div>
 
     </>
